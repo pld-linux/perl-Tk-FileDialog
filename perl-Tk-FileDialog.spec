@@ -1,23 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Tk
 %define		pnam	FileDialog
-Summary:	Tk::FileDialog Perl module - File Dialog widget for Perl/Tk
-Summary(cs):	Modul Tk::FileDialog pro Perl
-Summary(da):	Perlmodul Tk::FileDialog
-Summary(de):	Tk::FileDialog Perl Modul
-Summary(es):	Módulo de Perl Tk::FileDialog
-Summary(fr):	Module Perl Tk::FileDialog
-Summary(it):	Modulo di Perl Tk::FileDialog
-Summary(ja):	Tk::FileDialog Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Tk::FileDialog ÆÞ ¸ðÁÙ
-Summary(nb):	Perlmodul Tk::FileDialog
-Summary(pl):	Modu³ Perla Tk::FileDialog - okienko dialogowe wyboru plików dla modu³u Tk
-Summary(pt):	Módulo de Perl Tk::FileDialog
-Summary(pt_BR):	Módulo Perl Tk::FileDialog
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Tk::FileDialog
-Summary(sv):	Tk::FileDialog Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Tk::FileDialog
-Summary(zh_CN):	Tk::FileDialog Perl Ä£¿é
+Summary:	Tk::FileDialog Perl module - file dialog widget for Perl/Tk
+Summary(pl):	Modu³ Perla Tk::FileDialog - okienko dialogowe wyboru plików dla modu³u Perla Tk
 Name:		perl-Tk-FileDialog
 Version:	1.3
 Release:	11

@@ -6,7 +6,8 @@ Summary(pl):	Modu³ Perla Tk::FileDialog - okienko dialogowe wyboru plików dla mo
 Name:		perl-Tk-FileDialog
 Version:	1.3
 Release:	11
-License:	Artistic or GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	85e87b83edc4f7d4ce8bd974e1c53497
@@ -34,7 +35,8 @@ plików dla modu³u Tk.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT

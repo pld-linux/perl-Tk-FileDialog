@@ -5,7 +5,7 @@ Summary:	Tk::FileDialog Perl module - file dialog widget for Perl/Tk
 Summary(pl):	Modu³ Perla Tk::FileDialog - okienko dialogowe wyboru plików dla modu³u Perla Tk
 Name:		perl-Tk-FileDialog
 Version:	1.3
-Release:	11
+Release:	12
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl

@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Tk
 %define	pnam	FileDialog
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tk-FileDialog perl module
 Summary(pl):	Modu³ perla Tk-FileDialog
 Name:		perl-Tk-FileDialog
 Version:	1.3
-Release:	8
-
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ Tk-FileDialog perl module.
 Modu³ perla Tk-FileDialog.
 
 %prep
-%setup -q -n Tk-FileDialog-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL

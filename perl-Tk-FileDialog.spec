@@ -3,7 +3,7 @@ Summary:	Tk-FileDialog perl module
 Summary(pl):	Modu³ perla Tk-FileDialog
 Name:		perl-Tk-FileDialog
 Version:	1.3
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl

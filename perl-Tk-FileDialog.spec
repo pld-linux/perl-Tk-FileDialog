@@ -20,7 +20,7 @@ Summary(uk):	Модуль для Perl Tk::FileDialog
 Summary(zh_CN):	Tk::FileDialog Perl дё©И
 Name:		perl-Tk-FileDialog
 Version:	1.3
-Release:	10
+Release:	11
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz

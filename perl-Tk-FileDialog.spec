@@ -10,7 +10,7 @@ Summary(fr):	Module Perl Tk::FileDialog
 Summary(it):	Modulo di Perl Tk::FileDialog
 Summary(ja):	Tk::FileDialog Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Tk::FileDialog ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Tk::FileDialog
+Summary(nb):	Perlmodul Tk::FileDialog
 Summary(pl):	Modu³ Perla Tk::FileDialog - okienko dialogowe wyboru plików dla modu³u Tk
 Summary(pt):	Módulo de Perl Tk::FileDialog
 Summary(pt_BR):	Módulo Perl Tk::FileDialog

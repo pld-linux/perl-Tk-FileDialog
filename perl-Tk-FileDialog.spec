@@ -20,13 +20,13 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Tk::FileDialog
 Summary(zh_CN):	Tk::FileDialog Perl Ä£¿é
 Name:		perl-Tk-FileDialog
 Version:	1.3
-Release:	10
+Release:	11
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Tk
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -41,7 +41,8 @@ plików dla modu³u Tk.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -55,5 +56,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-%{perl_sitelib}/Tk/FileDialog.pm
+%{perl_vendorlib}/Tk/FileDialog.pm
 %{_mandir}/man3/*

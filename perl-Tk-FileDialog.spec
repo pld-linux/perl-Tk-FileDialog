@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tk
 %define	pnam	FileDialog
-Summary:	Tk-FileDialog perl module
-Summary(pl):	Modu³ perla Tk-FileDialog
+Summary:	Tk::FileDialog perl module
+Summary(pl):	Modu³ perla Tk::FileDialog
 Name:		perl-Tk-FileDialog
 Version:	1.3
 Release:	9
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tk-FileDialog perl module.
+Tk::FileDialog perl module.
 
 %description -l pl
-Modu³ perla Tk-FileDialog.
+Modu³ perla Tk::FileDialog.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

@@ -2,7 +2,7 @@
 %define		pdir	Tk
 %define		pnam	FileDialog
 Summary:	Tk::FileDialog Perl module - file dialog widget for Perl/Tk
-Summary(pl):	Modu≥ Perla Tk::FileDialog - okienko dialogowe wyboru plikÛw dla modu≥u Perla Tk
+Summary(pl.UTF-8):   Modu≈Ç Perla Tk::FileDialog - okienko dialogowe wyboru plik√≥w dla modu≈Çu Perla Tk
 Name:		perl-Tk-FileDialog
 Version:	1.3
 Release:	12
@@ -20,9 +20,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Tk::FileDialog - A highly configurable File Dialog widget for Perl/Tk.
 
-%description -l pl
-Modu≥ Tk::FileDialog - wysoko konfigurowalne okienko dialogowe wyboru
-plikÛw dla modu≥u Tk.
+%description -l pl.UTF-8
+Modu≈Ç Tk::FileDialog - wysoko konfigurowalne okienko dialogowe wyboru
+plik√≥w dla modu≈Çu Tk.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Tk
 %define		pnam	FileDialog
+%include	/usr/lib/rpm/macros.perl
 Summary:	Tk::FileDialog Perl module - file dialog widget for Perl/Tk
 Summary(pl.UTF-8):	Moduł Perla Tk::FileDialog - okienko dialogowe wyboru plików dla modułu Perla Tk
 Name:		perl-Tk-FileDialog
@@ -11,8 +11,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	85e87b83edc4f7d4ce8bd974e1c53497
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Tk-FileDialog/
 BuildRequires:	perl-Tk
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

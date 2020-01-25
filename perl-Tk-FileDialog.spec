@@ -1,6 +1,5 @@
 %define		pdir	Tk
 %define		pnam	FileDialog
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tk::FileDialog Perl module - file dialog widget for Perl/Tk
 Summary(pl.UTF-8):	Moduł Perla Tk::FileDialog - okienko dialogowe wyboru plików dla modułu Perla Tk
 Name:		perl-Tk-FileDialog
